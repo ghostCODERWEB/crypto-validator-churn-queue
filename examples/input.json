@@ -1,0 +1,25 @@
+{
+  "active": [
+    "a",
+    "b"
+  ],
+  "minimum_active": 2,
+  "activation_limit": 1,
+  "exit_limit": 1,
+  "events": [
+    {
+      "timestamp": 0,
+      "kind": "exit_request",
+      "validator": "a"
+    },
+    {
+      "timestamp": 0,
+      "kind": "activate_request",
+      "validator": "c"
+    },
+    {
+      "timestamp": 1,
+      "kind": "process"
+    }
+  ]
+}

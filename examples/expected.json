@@ -1,0 +1,20 @@
+{
+  "activation_queue": [],
+  "active": [
+    "b",
+    "c"
+  ],
+  "exit_queue": [],
+  "trace": [
+    {
+      "activated": [
+        "c"
+      ],
+      "active_count": 2,
+      "epoch": 1,
+      "exited": [
+        "a"
+      ]
+    }
+  ]
+}
